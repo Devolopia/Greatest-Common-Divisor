@@ -5,6 +5,7 @@
 #define n() cout<<endl;
 #define inp(x) cin>>x;
 #define pa(a,n) for(ll i=0;i<n;i++)cout<<a[i]<<" ";
+#define geta(a,n) for(ll i=0;i<n;i++)cin>>a[i];
 #define ll long long
 using namespace std;
 
@@ -20,6 +21,6 @@ int main(){
 	cout.tie(0);
 	ll a,b;
 	inp(a);inp(b);
-	pn(gcd(a,b));
+	cout<<"GCD of a and b is ";pn(gcd(a,b));
 	return 0;
 }
